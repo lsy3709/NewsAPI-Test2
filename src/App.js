@@ -4,12 +4,10 @@ import NewsPage from './pages/NewsPage';
 
 const App = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Routes>
+      <Routes>
       <Route path="/" element={<NewsPage />} />
       <Route path="/:category" element={<NewsPage />} />
     </Routes>
-    </BrowserRouter>
   );
 };
 
