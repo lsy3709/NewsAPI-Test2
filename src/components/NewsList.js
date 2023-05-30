@@ -31,6 +31,7 @@ const NewsList = ({ category }) => {
   }
   // 아직 response 값이 설정되지 않았을 때
   if (!response) {
+    console.log("response 응답이 없을 경우.")
     return null;
   }
 
